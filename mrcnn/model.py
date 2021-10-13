@@ -33,8 +33,8 @@ assert LooseVersion(tf.__version__) >= LooseVersion("1.13.1")
 assert LooseVersion(keras.__version__) >= LooseVersion('2.0.8')
 
 
-!sudo pip install --no-deps tensorflow==1.15.3
-!sudo pip install --no-deps keras==2.2.4
+sudo pip install --no-deps tensorflow==1.15.3
+sudo pip install --no-deps keras==2.2.4
 ############################################################
 #  Utility Functions
 ############################################################
