@@ -343,7 +343,7 @@ def log2_graph(x):
     return tf.log(x) / tf.log(2.0)
 
 
-class PyramidROIAlign(KE.Layer):
+class PyramidROIAlign(Layer):
     """Implements ROI Pooling on multiple levels of the feature pyramid.
 
     Params:
